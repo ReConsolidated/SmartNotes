@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>401</width>
-    <height>320</height>
+    <height>293</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -64,27 +64,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>401</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuPlik">
-    <property name="title">
-     <string>Plik</string>
-    </property>
-    <addaction name="actionNowy"/>
-    <addaction name="actionOtworz"/>
-    <addaction name="separator"/>
-    <addaction name="actionWyj_cie"/>
-   </widget>
-   <addaction name="menuPlik"/>
-  </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>

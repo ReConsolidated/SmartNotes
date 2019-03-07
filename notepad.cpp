@@ -6,6 +6,7 @@ Notepad::Notepad(QWidget *parent) :
     ui(new Ui::Notepad)
 {
     ui->setupUi(this);
+    this->setWindowFlag(Qt::WindowStaysOnTopHint);
     config = FileManager::loadConfig();
 
     if (!QDir("Notes").exists())
